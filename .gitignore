@@ -1,4 +1,5 @@
 .idea/
 target/
+src/main/java/org/inlighting/proto
 *.iml
 .DS_Store
