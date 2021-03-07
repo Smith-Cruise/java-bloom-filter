@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+package org.inlighting.proto;
+
+option java_package = "org.inlighting.proto";
+option java_outer_classname = "BloomFilterProtos";
+
+message BloomFilter {
+  required uint32 numHashFunctions = 1;
+  repeated fixed64 bitset = 2;
+}
